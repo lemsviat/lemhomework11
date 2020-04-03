@@ -3,9 +3,6 @@ package main.java.com.lemsviat.lemhomework11;
 public class StoneScissorsPaper {
     private Human user;
     private Computer computer;
-    private int userScore;
-    private int computerScore;
-    private int numberOfGames;
 
     public StoneScissorsPaper() {
         user = new Human();
