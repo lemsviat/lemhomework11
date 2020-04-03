@@ -24,7 +24,6 @@ public class StoneScissorsPaper {
             case 1: // Победил игрок
                 if (userState==States.НОЖНИЦЫ) System.out.println(userState + " бьют " + computerState + ". Вы победили!");
                 else System.out.println(userState + " бьет " + computerState + ". Вы победили!");
-                //userScore++;
                 break;
             case -1: // Победил компьютер
                 if (computerState==States.НОЖНИЦЫ) System.out.println(computerState + " бьют " + userState + ". Вы проиграли.");
@@ -35,7 +34,7 @@ public class StoneScissorsPaper {
             System.out.println();
             startGame();
         } else {
-            System.out.println("Игра закончена:)");;
+            System.out.println("Игра закончена:)");
         }
     }
 
