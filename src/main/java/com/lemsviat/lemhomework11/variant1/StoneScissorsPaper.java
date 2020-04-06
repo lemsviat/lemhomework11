@@ -1,4 +1,4 @@
-package main.java.com.lemsviat.lemhomework11;
+package main.java.com.lemsviat.lemhomework11.variant1;
 
 public class StoneScissorsPaper {
     private Human user;
